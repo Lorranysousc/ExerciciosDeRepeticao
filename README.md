@@ -1,5 +1,5 @@
-v# ExerciciosDeRepeticao
-Resolução da Lista de exercicios de Repetição do Python, comentado.
+# ExerciciosDeRepeticao
+ Resolução da Lista de exercicios de Repetição do Python, comentado.
  
  
 - [ ] 1. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
