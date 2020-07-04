@@ -12,7 +12,7 @@
 - [x] 8. Faça um programa que leia 5 números e informe a soma e a média dos números.
 - [ ] 9. Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
 - [x] 10. Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles.
-- [ ] 11. Altere o programa anterior para mostrar no final a soma dos números.
+- [x] 11. Altere o programa anterior para mostrar no final a soma dos números.
 - [ ] 12. Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada.
 - [ ] 13. Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. Não utilize a função de potência da linguagem.
 - [ ] 14. Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares.
