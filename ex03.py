@@ -23,7 +23,21 @@ while salario < 0:
 sexo = str(input('Sexo [F/M]: '))[0] #[0] pega a primeira letra da palavra.
 while sexo not in 'FfMm':
     sexo = str(input('Sexo Inválido. \nSexo [F/M]: '))[0]
+if sexo in 'Ff':
+    sexo = 'Feminino'
+else:
+    sexo = 'Masculino'
 
 estado_civil = int(input('Estado Civil \n[1]Solteiro(a) \n[2]Casado(a) \n[3]Viúvo(a) \n[4]Divorciado(a) \n'))
 while estado_civil < 1 or estado_civil > 4:
     estado_civil = int(input('Estado Civil inválido. \n[1]Solteiro(a) \n[2]Casado(a) \n[3]Viúvo(a) \n[4]Divorciado(a) \n'))
+if estado_civil == 1:
+    estado_civil = 'Solteiro(a)'
+elif estado_civil == 2:
+    estado_civil = 'Casado(a)'
+elif estado_civil == 3:
+    estado_civil = 'Viúvo(a)'
+else:
+    estado_civil = 'Divorciado(a)'
+
+print(f'\nNome: {nome} \nIdade: {idade} anos \nSalário R$ {salario:.2f} \nSexo: {sexo} \nEstado civil: {estado_civil}')
